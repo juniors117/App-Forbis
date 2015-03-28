@@ -8,14 +8,17 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by jsalazar  on 10/22/2014.
+ * Created by jsalazar on 27/03/2015.
  */
-public class menu2_Fragment extends Fragment {
+public class menu4_Fragment  extends Fragment {
     View rootview;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        rootview = inflater.inflate(R.layout.menu2_layout, container, false);
-        return rootview;
+
+        rootview = inflater.inflate(R.layout.menu4_layout, container, false);
+
+       return rootview;
     }
 }

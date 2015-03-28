@@ -56,6 +56,10 @@ public class MyActivity extends Activity
             case 2:
                 objFragment = new menu3_Fragment();
                 break;
+            case 3:
+                objFragment = new menu4_Fragment();
+                finish();
+
         }
         // update the main content by replacing fragments
         FragmentManager fragmentManager = getFragmentManager();
@@ -74,6 +78,9 @@ public class MyActivity extends Activity
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
+                break;
+            case 4:
+                mTitle = getString(R.string.title_section4);
                 break;
         }
     }
